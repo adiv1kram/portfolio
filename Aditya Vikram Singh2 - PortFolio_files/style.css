@@ -31,8 +31,8 @@
 .infocontainer{
     background-color: rgb(219, 228, 32);
     width: 78vw;
-    height: 69vh;
-    margin: 105 auto;
+    height: 80vh;
+    margin: 144px auto;
     display: flex;
     justify-content: space-around;
 
@@ -48,5 +48,4 @@
 .mypic img{
    
     height: 78vh;
-    
 }

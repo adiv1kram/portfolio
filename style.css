@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 *{
     margin: 0;
     padding: 0;
 }
 .sidebar{
-    background-color: red;
+    background-color: rgba(182, 182, 182, 0.92);
     width: 20vw;
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
 }
 .sidebar nav{
     padding: 42px;
@@ -19,9 +20,14 @@
     padding: 33px 0;
     
 }
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    
+}
 
 .main{
-    background-color: yellow;
+    /*background-color: yellow;*/
     width: 80vw;
 }
 
@@ -29,10 +35,11 @@
     display: flex;
 }
 .infocontainer{
-    background-color: rgb(219, 228, 32);
-    width: 78vw;
-    height: 69vh;
-    margin: 105 auto;
+    background-color: rgb(241, 235, 239);
+    width: 67vw;
+    height: 62vh;
+    margin: 104px auto;
+    
     display: flex;
     justify-content: space-around;
 
@@ -41,12 +48,81 @@
 .devInfo{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center ;
     flex-direction: column;
 }
 
-.mypic img{
-   
-    height: 78vh;
+.hello{
     
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+.name{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold
+    
+}
+.about{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.buttons button{
+    padding: 11px;
+    font-size: 16px;
+    border-radius: 50px
+  
+}
+.buttons button:hover{
+    background-color: rgb(152, 193, 255);
+    color: black;
+}
+.contactform{
+    padding: 0 100px;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+.contactform h1{
+    padding: 44px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+}
+
+.devPic2 img{
+  height: 62vh;
+}
+.contactform div{
+    padding-top: 20px;
+    display : flex;
+        flex-direction: column;
+    
+    
+}
+.contactform div  input{
+    width: 20vw;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 8px ;
+    margin: 5px 0 0 0;
+}
+#emailHelp{
+    
+    font-size: 10px;
+        color: #f41b1be6;
+        
+        margin: 10px;
+}
+#form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+    width: 15px;
+    height: 15px;
+    margin: 6px;
 }

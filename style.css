@@ -9,7 +9,7 @@
     background-color: rgba(182, 182, 182, 0.92);
     width: 20vw;
     font-family: 'Roboto', sans-serif;
-    height: 100vh;
+    height: auto;
 }
 .sidebar nav{
     padding: 42px;
@@ -76,8 +76,8 @@
   
 }
 .buttons button:hover{
-    background-color: rgb(152, 193, 255);
-    color: black;
+    background-color: rgb(11, 177, 237);
+    color: rgb(247, 240, 240);
 }
 .contactform{
     padding: 0 100px;
@@ -103,7 +103,7 @@
     
     
 }
-.contactform div  input{
+.contactform div input{
     width: 20vw;
     border-radius: 5px;
     font-size: 15px;
@@ -126,3 +126,29 @@
     height: 15px;
     margin: 6px;
 }
+.blogContainer h1{
+    margin: 35px;
+    text-align: center;
+    font-family:'Fira Sans',sans-serif;
+}
+.blogitem{
+    margin: 20px;
+    font-family:'Fira Sans',sans-serif;
+}
+.blogitem h2{
+    margin: 14px
+}
+.blogitem p{
+    margin: 14px;
+    padding: 10px
+}
+.blogitem button{
+    padding: 9px;
+    font-size: 12px;
+    border-radius: 50px
+  
+}
+.blogitem button:hover{
+    background-color: rgb(11, 177, 237);
+    color: rgb(250, 247, 247);
+}   

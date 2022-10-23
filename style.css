@@ -172,5 +172,12 @@
     flex: 50%;
     flex-direction: row;
 }
-
-
+@media (max-width: 1615px){
+    *{
+        /*background-color: rgb(230, 146, 146);*/
+    }
+    .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }
+  }

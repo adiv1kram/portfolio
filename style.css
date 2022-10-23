@@ -151,16 +151,27 @@
 .blogitem button:hover{
     background-color: rgb(11, 177, 237);
     color: rgb(250, 247, 247);
-}   
+}
+.container{
+    background-color: black;
+}  
 .IntroContainer h1{
     margin: 51px;
+    color: azure;
+}
+.IntroContainer h2{
+    padding: 12px;
+    color: azure;
 }
 .IntroContainer p{
     margin: 22px;
     font-family: 'Silkscreen', cursive;
     color: rgb(42, 125, 34);
 }
-.IntroContainer h2{
-    margin: 20px;
-    
+.IntroContainer img{
+    height: 63px;
+    padding: 34px;
+    flex: 50%;
 }
+
+

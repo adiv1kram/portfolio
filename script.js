@@ -7,6 +7,7 @@ document.querySelector(".ham").addEventListener("click", () => {
     document.querySelector(".backArrow").style.display = "none";
   } else {
     document.querySelector(".ham").style.display = "none";
-    document.querySelector(".backArrow").style.display = "inline";
+    setTimeout(() =>{
+    document.querySelector(".backArrow").style.display = "inline"},300);
   }
 });

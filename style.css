@@ -6,6 +6,7 @@
   padding: 0;
 }
 .sidebar {
+  
   background-color: rgba(182, 182, 182, 0.92);
   width: 20vw;
   font-family: "Roboto", sans-serif;
@@ -160,24 +161,32 @@
   transform: translate(-443px, 0px);
   position: absolute;
 }
+.hamBurger{
+    position: absolute;
+     cursor: pointer;
+     top: 10px;
+     left: 10px;
+}
 .ham {
-  position: absolute;
-  cursor: pointer;
-  top: 10px;
-  left: 10px;
+  margin-top:10px;
+  margin-left: 10px;
+
 }
 .backArrow {
-  position: absolute;
-  cursor: pointer;
-  top: 10px;
-  left: 278px;
+  margin-left:-23px;
+  margin-top: 10px;
 }
-/*@media (max-width: 1615px){
-    *{
-        /*background-color: rgb(230, 146, 146);*/
-/*}
-    .sidebar{
+/* @media (max-width: 1615px){
+  *{
+     /*background-color: rgb(230, 146, 146);*/
+  
+  /* .devPic2{
+     nav-down: ;
+  } */
+    /* .sidebar{
         transform: translate(-443px,0px);
         position: absolute;
-    }
-  }*/
+    } 
+  } */ 
+
+  
